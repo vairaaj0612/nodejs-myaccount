@@ -15,7 +15,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - image: adhig93/kubernetesjenkins:version1
+      - image: viviennetek/kubernetesjenkins:version1
         imagePullPolicy: Always
         name: nodejs
         ports:
